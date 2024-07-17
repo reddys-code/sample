@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 ;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0 , 0,0.1);
+    width: 500px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.radio-group input[type="radio"]{
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.checkbox-group input[type="checkbox"]{
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #4cae4c;
+}

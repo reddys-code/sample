@@ -46,3 +46,15 @@ input[type="submit"]:hover {
     text-align: center;
     margin-bottom: -5%;
 }
+p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
